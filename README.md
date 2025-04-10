@@ -1,5 +1,7 @@
 # Kanban Board Project
 
+Live project link - https://board-bice-psi.vercel.app
+
 A simple, responsive Kanban board built using **Next.js**, **Tailwind CSS**, and TypeScript. This project demonstrates basic drag-and-drop functionality for task management, showcasing reusable components and clean project structure.
 
 ## 🚀 Getting Started
