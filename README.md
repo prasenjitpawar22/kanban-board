@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kanban Board Project
 
-## Getting Started
+A simple, responsive Kanban board built using **Next.js**, **Tailwind CSS**, and TypeScript. This project demonstrates basic drag-and-drop functionality for task management, showcasing reusable components and clean project structure.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### Installation
 
 ```bash
-npm run dev
+git clone https://github.com/yourusername/kanban-board.git
+cd kanban-board
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🏗️ Architecture & Approach
+App Directory: Uses Next.js 13+ app/ directory structure for routing.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Components: Modular and reusable UI elements located in /components.
 
-## Learn More
+State Management: Local component state to track board lists and tasks.
 
-To learn more about Next.js, take a look at the following resources:
+Styling: Tailwind CSS for utility-first, responsive UI design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Type Safety: TypeScript used throughout to ensure cleaner, safer code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Self-Evaluation
+
+## 📝 Half-Page Summary
+
+This is a lightweight Kanban board project developed using Next.js, Tailwind CSS, and TypeScript. It demonstrates clean UI implementation with modular components and responsive design. The goal was to build a basic task board with support for expanding into drag-and-drop interactions and a dynamic data layer.
+
+## 🧠 Self-Criticism
+
+- Board/task data is stored locally instead of using any external state manager or API.
+- The folder structure is simple but could benefit from clearly separating logic vs. UI.
+- Form/Model validation not implemented.
+
+## 🔧 Improvements If I Had More Time
+
+- Add persistent storage (e.g. Supabase or any other database).
+- Improve UI feedback, such as loading states or animations.
+- Add tests (unit/component) using a framework like Vitest or Jest.
+
+## 📊 Technology Rating
+
+- **React / Next.js**: 9/10  
+- **Tailwind CSS**: 9/10  
+- **TypeScript**: 8/10  
